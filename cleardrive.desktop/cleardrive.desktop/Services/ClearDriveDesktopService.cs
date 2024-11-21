@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Models;
 using System.Net;
 using Newtonsoft.Json;
+using Microsoft.IdentityModel.Clients.ActiveDirectory;
+using IHttpClientFactory = System.Net.Http.IHttpClientFactory;
 //using System.Text.Json.Serialization;
 
 namespace cleardrive.desktop.Services
